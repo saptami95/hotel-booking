@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hotel booking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>BELLMOND</span>
+            </div>
+            <div class="site-name">
+                <span id="nav-btn">MENU<i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+
+        <div class="head-bottom flex">
+            <h2>Nice comfortable place!</h2>
+            <button type="button" class="head-btn">
+                GET STARTED
+            </button>
+        </div>
+    </header>
+
+
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="navbar">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <button class="btn sign-up">Sign-up</button>
+        <button class="btn log-in">Log-in</button>
+    </div>
+    
+<div id="modal"></div>
+
+    
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>services</h2>
+        </div>
+        <div class="services-container">
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Food Service</h2>
+                    <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.</p>
+                    <button type="button" class="btn">Know more</button>
+                    </div>
+            </article>
+        
+
+        <article class="service">
+            <div class="service-icon">
+                <span>
+                    <i class="fas fa-broom"></i>
+                </span>
+            </div>
+            <div class="service-content">
+                <h2>housekeeping</h2>
+                <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.</p>
+                <button type="button" class="btn">Know more</button>
+                </div>
+        </article>
+
+
+    <article class="service">
+        <div class="service-icon">
+            <span>
+                <i class="fas fa-door-closed"></i>
+            </span>
+        </div>
+        <div class="service-content">
+            <h2>security</h2>
+            <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.</p>
+            <button type="button" class="btn">Know more</button>
+            </div>
+    </article>
+</div>
+    </section>
+
+    <div class="book">
+        <form class="book-form">
+            <div class="form-item">
+                <label for="checkin-date">Check in date:</label>
+                <input type="date" id="checkin-date">
+            </div>
+
+            <div class="form-item">
+                <label for="checkout-date">Check out date:</label>
+                <input type="date" id="checkout-date">
+            </div>
+
+            <div class="form-item">
+                <label for="adult">Adults:</label>
+                <input type="number" id="adult" min="1" value="1">
+            </div>
+
+            <div class="form-item">
+                <label for="children">Children:</label>
+                <input type="number" id="children" min="1" value="1">
+            </div>
+
+            <div class="form-item">
+                <label for="rooms">Rooms:</label>
+                <input type="number" id="rooms" min="1" value="1">
+            </div>
+
+            <div class="form-item">
+                <input type="submit" class="btn" value="Book Now">
+            </div>
+        </form>
+    </div>
+
+    <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>rooms</h2>
+        </div>
+        <div class = "rooms-container">
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/r1.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Hello
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Welcome!
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Bellmond Hotel...
+                        </li>
+                    </ul>
+                    <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator, and other kitchen facilities, upholstered chairs, a flat-screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
+                    <p class = "rate">
+                        <span>1600/-</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/r2.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Hello!
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Welcome!
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Bellmond Hotel...
+                        </li>
+                    </ul>
+                    <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator, and other kitchen facilities, upholstered chairs, a flat-screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
+                    <p class = "rate">
+                        <span>1300/-</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/r3.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Hello!
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Welcome!
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Bellmond Hotel...
+                        </li>
+                    </ul>
+                    <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator, and other kitchen facilities, upholstered chairs, a flat-screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. 
+                    <p class = "rate">
+                        <span>1500/-</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+
+        <article class = "room">
+            <div class = "room-image">
+                <img src = "images/r2.jpg" alt = "room image">
+            </div>
+            <div class = "room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Hello!
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Welcome!
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Bellmond Hotel...
+                    </li>
+                </ul>
+                <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator, and other kitchen facilities, upholstered chairs, a flat-screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities.</p>
+                <p class = "rate">
+                    <span>1700/- /</span> Per Night
+                </p>
+                <button type = "button" class = "btn">book now</button>
+            </div>
+        </article>
+        </div>
+        </section>
+
+
+    <section class="customers" id="customers">
+        <div class="title">
+            <h2>customers</h2>
+        </div>
+        <div class="customers-container">
+            <div class="customer">
+                <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                    </div>
+            
+            <h3>we loved it</h3>
+            <p>The food system has significant impacts on a wide range of other social and political issues, including sustainability, biological diversity, economics, population growth, water supply, and food security. Food safety and security are monitored by international agencies like the International Association for Food Protection, the World Resources Institute, the World Food Programme, the Food and Agriculture Organization, and the International Food Information Council.</p>
+            <img src="images/customers/c1.jpg" alt="customers">
+            <span>Customer Name,Country</span>
+        </div>
+
+            <div class="customer">
+                <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                    </div>
+            <h3>Comfortable living</h3>
+            <p>The food system has significant impacts on a wide range of other social and political issues, including sustainability, biological diversity, economics, population growth, water supply, and food security. Food safety and security are monitored by international agencies like the International Association for Food Protection, the World Resources Institute, the World Food Programme, the Food and Agriculture Organization, and the International Food Information Council.</p>
+            <img src="images/customers/c2.jpg" alt="customers">
+            <span>Customer Name,Country</span>
+        </div>
+
+        <div class="customer">
+            <div class="rating">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+                </div>
+       
+        <h3>Nice Place</h3>
+        <p>The food system has significant impacts on a wide range of other social and political issues, including sustainability, biological diversity, economics, population growth, water supply, and food security. Food safety and security are monitored by international agencies like the International Association for Food Protection, the World Resources Institute, the World Food Programme, the Food and Agriculture Organization, and the International Food Information Council.</p>
+        <img src="images/customers/c3.jpg" alt="customers">
+        <span>Customer Name,Country</span>
+    </div>
+    </div>
+</div>
+</section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <ul class="social-icons">
+                <li class="flex-area">
+                    <i class="fa fa-twitter fa-2x"></i>
+                    </li>
+
+                    <li class="flex-area">
+                        <i class="fa fa-facebook fa-2x"></i>
+                        </li>
+
+                        <li class="flex-area">
+                            <i class="fa fa-instagram fa-2x"></i>
+                            </li>
+                </ul>
+            </div>
+
+            <div class="Usefull">
+                <h2>Usefull Links</h2>
+                <a href="#">Blogs</a>
+                <a href="#">Rooms</a>
+                <a href="#">Subscription</a>
+                <a href="#">Gift Card</a>
+            </div>
+
+            <div class="privacy">
+                <h2>Privacy</h2>
+                <a href="#">Career</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Services</a>
+            </div>
+
+            <div>
+                <h2 class="area">Have A Question</h2>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>203 Fake St.Mountain View,San Francisco,California,USA
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +84545 34582 12
+                    </span>
+                    <div>
+                        <div class="contact-item">
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="user">
+            Created By:  Saptami Badiger 
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
